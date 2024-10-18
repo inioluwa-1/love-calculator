@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/love.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.love{
+    background-color: rgba(0, 0, 0,0.2);
+    max-width: 400px;
+    text-align: center;
+}
+/* .wee{
+    margin-bottom: 1rem;
+} */
+.pic{
+     width: 100px;
+    height: auto;
+}
+@media screen and (max-width: 800px){
+    body{
+        background-image: url('images/love2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .love{
+        width: 80%;
+    }
+    
+    .pic{
+        width: 100px;
+        height: auto;
+    }
+}
